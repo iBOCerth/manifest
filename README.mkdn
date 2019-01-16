@@ -1,4 +1,8 @@
-###### //WORK IN PROGRESS//
+
+Initialize the manifest
+
+  	repo init -u git://github.com/iBOCerth/manifest.git -b master
+  
 
 # If you have uninstalled dependencies run in your workspace:
 ---------------
