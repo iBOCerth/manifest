@@ -22,7 +22,7 @@
    <!--iBO Certh edits-->
   <project path="src/find-object"  name="iBOCerth/find-object"  />
   <project path="src/husky"  name="iBOCerth/husky"  />
-  <project path="src/Thorvald"  name="iBOCerth/Thorvald"  />
+  <project path="src/Thorvald"  name="iBOCerth/Thorvald" revision="master" />
   <project path="src/navigation_2d" name="iBOCerth/navigation_2d" />
   <project path="src/nre_simmultihusky" name="iBOCerth/nre_simmultihusky"  />
   <project path="src/usb_cam" name="iBOCerth/usb_cam"  />
