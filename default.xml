@@ -7,12 +7,12 @@
    <remote name="private"
    		   fetch="ssh://git@github.com" />
 	   
-   <default revision="refs/heads/kinetic"
+   <default revision="refs/heads/kinetic-devel"
             remote="private"
             sync-c="true"
 	        sync-j="4" />
 	
-  <project path="src/Thorvald"  name="iBOCerth/Thorvald" revision="kinetic-devel" />
+  <project path="src/Thorvald"  name="iBOCerth/Thorvald" />
  
   <include name="snippets/upstream.xml" />
 </manifest>
