@@ -7,7 +7,7 @@
    <remote name="private"
    		   fetch="ssh://git@github.com" />
 	   
-   <default revision="refs/heads/kinetic"
+   <default revision="refs/heads/kinetic-test"
             remote="private"
             sync-c="true"
 	        sync-j="4" />
