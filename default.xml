@@ -14,15 +14,10 @@
 	
   <!--Android interface/app for ROS operation-->
   <project path="android/RobotCA" name="iBOCerth/RobotCA" />
-	
-  <!--Arduino and RaspberryPi implementation-->
-  <project path="Arduino-ROS" name="iBOCerth/Arduino-ROS"  />
-  <project path="RaspberryPi-ROS" name="iBOCerth/RaspberryPi-ROS"  />
   
    <!--iBO Certh edits-->
   <project path="src/find-object"  name="iBOCerth/find-object"  />
-  <project path="src/husky"  name="iBOCerth/husky"  />
-  <project path="src/Thorvald"  name="iBOCerth/Thorvald" revision="kinetic-devel" />
+  <project path="src/husky"  name="iBOCerth/husky"  />  <project path="src/Thorvald"  name="iBOCerth/Thorvald" revision="kinetic-devel" />
   <project path="src/navigation_2d" name="iBOCerth/navigation_2d" />
   <project path="src/nre_simmultihusky" name="iBOCerth/nre_simmultihusky"  />
   <project path="src/usb_cam" name="iBOCerth/usb_cam"  />
