@@ -12,24 +12,6 @@
             sync-c="true"
 	        sync-j="4" />
 	
-  <!--Android interface/app for ROS operation-->
-  <project path="android/RobotCA" name="iBOCerth/RobotCA" />
-  
-   <!--iBO Certh edits-->
-  <project path="src/find-object"  name="iBOCerth/find-object"  />
-  <project path="src/husky"  name="iBOCerth/husky"  />  <project path="src/Thorvald"  name="iBOCerth/Thorvald" revision="kinetic-devel" />
-  <project path="src/navigation_2d" name="iBOCerth/navigation_2d" />
-  <project path="src/nre_simmultihusky" name="iBOCerth/nre_simmultihusky"  />
-  <project path="src/usb_cam" name="iBOCerth/usb_cam"  />
-  <project path="src/teb_local_planner" name="iBOCerth/teb_local_planner" />
-  <project path="src/eband_local_planner" name="iBOCerth/eband_local_planner" />
-  <project path="src/depthimage_to_laserscan" name="iBOCerth/depthimage_to_laserscan" />
-  <project path="src/simple_navigation_goals" name="iBOCerth/simple_navigation_goals" />
-  <project path="src/vision_visp" name="iBOCerth/vision_visp"/>
-  <project path="src/rtabmap_ros" name="iBOCerth/rtabmap_ros"/>
-  <project path="src/get" name="iBOCerth/get"/>
 
-  <include name="snippets/upstream.xml" />
-  <include name="snippets/misc.xml" />
 
 </manifest>
