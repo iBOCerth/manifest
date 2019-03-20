@@ -7,11 +7,12 @@
    <remote name="private"
    		   fetch="ssh://git@github.com" />
 	   
-   <default revision="refs/heads/kinetic-test"
+   <default revision="refs/heads/husky-test"
             remote="private"
             sync-c="true"
 	        sync-j="4" />
 	
+	<project name="ibocerth/husky" path="src/husky" />
 
 
 </manifest>
