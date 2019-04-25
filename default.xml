@@ -14,7 +14,7 @@
 	
 	<project name="ibocerth/husky" path="src/husky" />
 	<project name="ibocerth/velodyne_simulator" path="src/velodyne_simulator" />
-
+	<project name="ibocerth/gazebo_ros_pkgs" path="src/gazebo_ros_pkgs" />
 
 
 </manifest>
