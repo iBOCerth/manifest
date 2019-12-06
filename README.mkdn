@@ -9,3 +9,15 @@ Initialize the manifest
 $ rosdep install --from-paths src --ignore-src --rosdistro kinetic -y -r
 
 
+# Enabling ccache 
+* sudo apt-get install ccache
+* ccache -M 2G
+* cd ~/ros/myworkspace
+* rm -rf devel build
+* echo 'USE_CCACHE=1` >> ~/.bashrc
+* echo 'export PATH=/usr/lib/ccache:$PATH' >> $HOME/.bashrc
+* source $HOME/.bashrc
+* catkin_make
+* Use `ccache -s` in order to check the deserved ccache size
+
+* Clean ccache with `ccache -c && ccache -C`
