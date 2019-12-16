@@ -7,18 +7,13 @@
    <remote name="private"
    		   fetch="ssh://git@github.com" />
 	   
-   <default revision="refs/heads/husky-test"
+   <default revision="refs/heads/melodic-husky-sim"
             remote="private"
             sync-c="true"
 	        sync-j="4" />
 	
 	<project name="ibocerth/husky" path="src/husky" />
-	<project name="ibocerth/velodyne_simulator" path="src/velodyne_simulator" />
-	<project name="ibocerth/octomap_mapping" path="src/octomap_mapping" />
-	<!--<project name="ibocerth/rtabmap_ros" path="src/rtabmap_ros" /> -->
-	<project name="ibocerth/GPS_goal" path="src/GPS_goal" />
-	<project name="ibocerth/gazebo_ros_pkgs" path="src/gazebo_ros_pkgs" />
-	<project name="ibocerth/ibo-scripts" path="ibo-scripts"/>
+ 
 
 
 </manifest>

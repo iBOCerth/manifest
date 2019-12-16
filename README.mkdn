@@ -1,12 +1,12 @@
 
 Initialize the manifest
 
-  	repo init -u git://github.com/iBOCerth/manifest.git -b husky-test
+  	repo init -u git://github.com/iBOCerth/manifest.git -b melodic-husky-sim
   
 
 # If you have uninstalled dependencies run in your workspace:
 ---------------
-$ rosdep install --from-paths src --ignore-src --rosdistro kinetic -y -r
+$ rosdep install --from-paths src --ignore-src --rosdistro melodic -y -r
 
 
 # Enabling ccache 
