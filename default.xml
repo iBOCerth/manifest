@@ -16,6 +16,8 @@
 		<copyfile src="killall.sh" dest="killall.sh" />
 	</project>
 	<project name="ibocerth/velodyne_simulator" path="src/velodyne_simulator" />
+	
+	<!-- since eband planner is not officially supported by ROS (for melodic) we have to build it on our own-->
 	<project name="ibocerth/eband_local_planner" path="src/eband_local_planner" />
  
 </manifest>
