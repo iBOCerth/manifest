@@ -13,7 +13,6 @@
 	        sync-j="4" />
 	
 	<project name="ibocerth/husky" path="src/husky" />
+	<project name="ibocerth/velodyne_simulator" path="src/velodyne_simulator" />
  
-
-
 </manifest>
