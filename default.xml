@@ -16,5 +16,6 @@
 		<copyfile src="killall.sh" dest="killall.sh" />
 	</project>
 	<project name="ibocerth/velodyne_simulator" path="src/velodyne_simulator" />
+	<project name="ibocerth/eband_local_planner" path="src/eband_local_planner" />
  
 </manifest>
