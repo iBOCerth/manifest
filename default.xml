@@ -18,6 +18,9 @@
 	</project>
 	<project name="ibocerth/velodyne_simulator" path="src/velodyne_simulator" />
 	<project name="ibocerth/velodyne_driver" path="src/velodyne_driver"/>
+
+	<!--this manifest-->
+	<project name="ibocerth/manifest" path="manifest"/>
  
  
 </manifest>
