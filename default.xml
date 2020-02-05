@@ -19,6 +19,7 @@
 	<project name="ibocerth/velodyne_simulator" path="src/velodyne_simulator" />
 	<project name="ibocerth/velodyne_driver" path="src/velodyne_driver"/>
 	<project name="ibocerth/eband_local_planner" path="src/eband_local_planner"/>
+	<project name="ibocerth/gazebo_ros_pkgs" path="src/gazebo_ros_pkgs"/>
 
 	<!--this manifest-->
 	<project name="ibocerth/manifest" path="manifest"/>
