@@ -14,7 +14,7 @@
 	
 	<project name="ibocerth/husky" path="src/husky" />
 	<project name="ibocerth/velodyne_simulator" path="src/velodyne_simulator" />
-	<project name="ibocerth/octomap_mapping" path="src/octomap_mapping" />
+        <!-- <project name="ibocerth/octomap_mapping" path="src/octomap_mapping" /> -->
 	<!--<project name="ibocerth/rtabmap_ros" path="src/rtabmap_ros" /> -->
 	<project name="ibocerth/velodyne_driver" path="src/velodyne_driver" />
 	<project name="ibocerth/GPS_goal" path="src/GPS_goal" />
