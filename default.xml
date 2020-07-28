@@ -20,6 +20,7 @@
 	<project name="ibocerth/GPS_goal" path="src/GPS_goal" />
 	<project name="ibocerth/gazebo_ros_pkgs" path="src/gazebo_ros_pkgs" />
 	<project name="ibocerth/ibo-scripts" path="ibo-scripts"/>
+	<project name="ibocerth/manifest" path="manifest"/>
 
 
 </manifest>
