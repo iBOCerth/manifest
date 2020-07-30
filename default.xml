@@ -24,5 +24,7 @@
 	<!--this manifest-->
 	<project name="ibocerth/manifest" path="manifest"/>
  
+	<!--gps lib-->
+	<project name="ibocerth/ros_gps_libs" path="src/gps_libs" revision="master" />
  
 </manifest>
