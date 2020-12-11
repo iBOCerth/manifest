@@ -1,7 +1,11 @@
 
 Initialize the manifest
 
-  	repo init -u git://github.com/iBOCerth/manifest.git -b husky-test
+for ubuntu 16.04  follow the steps below
+
+    curl https://storage.googleapis.com/git-repo-downloads/repo-1 > repo
+    chmod a+x repo
+    python3 repo init -u git://github.com/iBOCerth/manifest.git -b husky-test
   
 
 # If you have uninstalled dependencies run in your workspace:
@@ -21,3 +25,4 @@ $ rosdep install --from-paths src --ignore-src --rosdistro kinetic -y -r
 * Use `ccache -s` in order to check the deserved ccache size
 
 * Clean ccache with `ccache -c && ccache -C`
+
