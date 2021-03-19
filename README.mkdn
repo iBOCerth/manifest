@@ -19,3 +19,19 @@ sudo apt-get install ros-melodic-thorvald
 sudo apt-get install ros-melodic-thorvald-simulator
 sudo apt-get install ros-melodic-thorvald-example-robots
 ```
+
+# Fix repo python fail for Ubuntu 18.xx
+
+if you previously have installed repo via apt-get or snap run
+```
+sudo apt-get purge repo
+sudo snap remove git-repo
+```
+Now install the legacy repo script
+```
+mkdir ~/bin
+curl https://storage.googleapis.com/git-repo-downloads/repo-1 > ~/bin/repo
+sudo chmod 777 ~/bin/repo
+echo "export PATH=\"$PATH:$HOME/bin\""
+```
+Now use `repo init` as it is, via your workspace
