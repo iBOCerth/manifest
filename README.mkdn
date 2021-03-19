@@ -9,3 +9,13 @@ Initialize the manifest
 $ rosdep install --from-paths src --ignore-src --rosdistro kinetic -y -r
 
 
+# Prepare Thorvald /opt sources
+
+```
+curl -s http://lcas.lincoln.ac.uk/repos/public.key | sudo apt-key add - 
+sudo apt-add-repository http://lcas.lincoln.ac.uk/ubuntu/mainupdate 
+sudo apt-get update
+sudo apt-get install ros-melodic-thorvald 
+sudo apt-get install ros-melodic-thorvald-simulator
+sudo apt-get install ros-melodic-thorvald-example-robots
+```
