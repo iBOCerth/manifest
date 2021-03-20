@@ -32,6 +32,6 @@ Now install the legacy repo script
 mkdir ~/bin
 curl https://storage.googleapis.com/git-repo-downloads/repo-1 > ~/bin/repo
 sudo chmod 777 ~/bin/repo
-echo "export PATH=\"$PATH:$HOME/bin\""
+echo "export PATH=\"$PATH:$HOME/bin\"" >> ~/.bashrc
 ```
 Now use `repo init` as it is, via your workspace
