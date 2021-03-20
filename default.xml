@@ -7,12 +7,13 @@
    <remote name="private"
    		   fetch="ssh://git@github.com" />
 	   
-   <default revision="refs/heads/master"
+   <default revision="refs/heads/thorvald-melodic-sim"
             remote="private"
             sync-c="true"
 	        sync-j="4" />
 	
   <project path="src/thorvald_melodic_simulation"  name="iBOCerth/thorvald_melodic_simulation" />
+  <project path="src/navigation" name="iBOcerth/navigation" />
  
   <include name="snippets/upstream.xml" />
 </manifest>
