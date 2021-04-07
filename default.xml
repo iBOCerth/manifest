@@ -14,6 +14,8 @@
 	
   <project path="src/thorvald_melodic_simulation"  name="iBOCerth/thorvald_melodic_simulation" />
   <project path="src/navigation" name="iBOcerth/navigation" />
+  <project path="src/navigation" name="iBOcerth/ros_path_planner" />
+  <project path="src/navigation" name="iBOcerth/ros_gps_libs" />
  
   <include name="snippets/upstream.xml" />
 </manifest>
