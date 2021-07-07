@@ -5,12 +5,12 @@ for ubuntu 16.04  follow the steps below
 
     curl https://storage.googleapis.com/git-repo-downloads/repo-1 > repo
     chmod a+x repo
-    python3 repo init -u git://github.com/iBOCerth/manifest.git -b husky-robot-kinetic
+    python3 repo init -u git://github.com/iBOCerth/manifest.git -b husky-robot-melodic
   
 
 # If you have uninstalled dependencies run in your workspace:
 ---------------
-$ rosdep install --from-paths src --ignore-src --rosdistro kinetic -y -r
+$ rosdep install --from-paths src --ignore-src --rosdistro melodic -y -r
 
 
 # Enabling ccache 
