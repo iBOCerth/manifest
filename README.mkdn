@@ -42,3 +42,9 @@ sudo chmod 777 ~/bin/repo
 echo "export PATH=\$PATH:\$HOME/bin" >> ~/.bashrc
 ```
 Now use `repo init` as it is, via your workspace
+
+Sometimes gazebo crashes due to heavy load (core dumped)
+use that in order to stop gazebo trying to find GPU
+```
+export SVGA_VGPU10=0
+```
