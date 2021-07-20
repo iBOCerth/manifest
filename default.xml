@@ -12,7 +12,7 @@
             sync-c="true"
 	        sync-j="4" />
 	
-  <project path="src/thorvald_melodic_simulation"  name="iBOCerth/thorvald_melodic_simulation" />
+  <project path="src/thorvald_melodic_simulation"  name="iBOCerth/thorvald_melodic_simulation" revision="thorvald-melodic-sim-uav" />
   <project path="src/navigation" name="iBOcerth/navigation" />
   <project path="src/ros_path_planner" name="iBOcerth/ros_path_planner" />
   <project path="src/ros_gps_libs" name="iBOcerth/ros_gps_libs" />
