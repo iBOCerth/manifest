@@ -18,6 +18,12 @@ sudo apt-get update
 sudo apt-get install ros-melodic-thorvald 
 sudo apt-get install ros-melodic-thorvald-simulator
 sudo apt-get install ros-melodic-thorvald-example-robots
+# dependencies
+sudo apt-get install ros-melodic-tf2-sensor-msgs
+sudo apt-get install geographiclib-tools 
+sudo apt-get install libgeographic-dev
+sudo apt-get install ros-melodic-pointcloud-to-laserscan
+
 ```
 
 # Fix repo python fail for Ubuntu 18.xx
