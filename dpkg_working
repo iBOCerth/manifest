@@ -1,0 +1,290 @@
+ii  ros-melodic-actionlib                        1.12.1-1bionic.20210505.025907                   amd64        The actionlib stack provides a standardized interface for interfacing with preemptable tasks.
+ii  ros-melodic-actionlib-msgs                   1.12.8-1bionic.20210505.010611                   amd64        actionlib_msgs defines the common messages to interact with an action server and an action client.
+ii  ros-melodic-actionlib-tutorials              0.1.11-0bionic.20210505.030309                   amd64        The actionlib_tutorials package
+ii  ros-melodic-amcl                             1.16.7-1bionic.20210505.031700                   amd64        amcl is a probabilistic localization system for a robot moving in 2D.
+ii  ros-melodic-angles                           1.9.12-1bionic.20201017.032544                   amd64        This package provides a set of simple math utilities to work with angles.
+ii  ros-melodic-bacchus-gazebo                   0.2.2-1bionic.20210714.144712                    amd64        The bacchus_gazebo package
+ii  ros-melodic-bacchus-move-base                0.2.2-1bionic.20201118.160211                    amd64        The bacchus_move_base package
+ii  ros-melodic-base-local-planner               1.16.7-1bionic.20210505.041352                   amd64        This package provides implementations of the Trajectory Rollout and Dynamic Window approaches to local robot navigation on a plane.
+ii  ros-melodic-bond                             1.8.5-1bionic.20210505.010840                    amd64        A bond allows two processes, A and B, to know when the other has terminated, either cleanly or by crashing.
+ii  ros-melodic-bond-core                        1.8.5-1bionic.20210505.022041                    amd64        A bond allows two processes, A and B, to know when the other has terminated, either cleanly or by crashing.
+ii  ros-melodic-bondcpp                          1.8.5-1bionic.20210505.020627                    amd64        C++ implementation of bond, a mechanism for checking when another process has terminated.
+ii  ros-melodic-bondpy                           1.8.5-1bionic.20210505.021036                    amd64        Python implementation of bond, a mechanism for checking when another process has terminated.
+ii  ros-melodic-camera-calibration               1.15.0-1bionic.20210505.040810                   amd64        camera_calibration allows easy calibration of monocular or stereo cameras using a checkerboard calibration target.
+ii  ros-melodic-camera-calibration-parsers       1.11.13-0bionic.20210505.025610                  amd64        camera_calibration_parsers contains routines for reading and writing camera calibration parameters.
+ii  ros-melodic-camera-info-manager              1.11.13-0bionic.20210505.030107                  amd64        This package provides a C++ interface for camera calibration information.
+ii  ros-melodic-catkin                           0.7.29-1bionic.20201014.191449                   amd64        Low-level build system macros and infrastructure for ROS.
+ii  ros-melodic-class-loader                     0.4.1-0bionic.20201015.033003                    amd64        The class_loader package is a ROS-independent package for loading plugins during runtime and the foundation of the higher level ROS &quot;pluginlib&quot; library.
+ii  ros-melodic-clear-costmap-recovery           1.16.7-1bionic.20210505.041556                   amd64        This package provides a recovery behavior for the navigation stack that attempts to clear space by reverting the costmaps used by the navigation stack to the static map outside of a given area.
+ii  ros-melodic-cmake-modules                    0.4.2-0bionic.20201015.021712                    amd64        A common repository for CMake Modules which are not distributed with CMake but are commonly used by ROS packages.
+ii  ros-melodic-common-msgs                      1.12.8-1bionic.20210505.044147                   amd64        common_msgs contains messages that are widely used by other ROS packages.
+ii  ros-melodic-common-tutorials                 0.1.11-0bionic.20210505.032149                   amd64        Metapackage that contains common tutorials
+ii  ros-melodic-compressed-depth-image-transport 1.9.5-0bionic.20210505.043907                    amd64        Compressed_depth_image_transport provides a plugin to image_transport for transparently sending depth images (raw, floating-point) using PNG compression.
+ii  ros-melodic-compressed-image-transport       1.9.5-0bionic.20210505.043912                    amd64        Compressed_image_transport provides a plugin to image_transport for transparently sending images encoded as JPEG or PNG.
+ii  ros-melodic-control-msgs                     1.5.1-1bionic.20210505.012619                    amd64        control_msgs contains base messages and actions useful for controlling robots.
+ii  ros-melodic-control-toolbox                  1.18.2-1bionic.20210505.030929                   amd64        The control toolbox contains modules that are useful across all controllers.
+ii  ros-melodic-controller-interface             0.18.3-1bionic.20210505.021044                   amd64        Interface base class for controllers.
+ii  ros-melodic-controller-manager               0.18.3-1bionic.20210505.025014                   amd64        The controller manager.
+ii  ros-melodic-controller-manager-msgs          0.18.3-1bionic.20210505.024913                   amd64        Messages and services for the controller manager.
+ii  ros-melodic-costmap-2d                       1.16.7-1bionic.20210505.035946                   amd64        This package provides an implementation of a 2D costmap that takes in sensor data from the world, builds a 2D or 3D occupancy grid of the data (depending on whether a voxel based implementation is used), and inflates costs in a 2D costmap based on the occupancy grid and a user specified inflation radius.
+ii  ros-melodic-costmap-converter                0.0.12-1bionic.20210505.040946                   amd64        A ros package that includes plugins and nodes to convert occupied costmap2d cells to primitive types.
+ii  ros-melodic-cpp-common                       0.6.14-1bionic.20200801.035855                   amd64        cpp_common contains C++ code for doing things that are not necessarily ROS related, but are useful for multiple packages.
+ii  ros-melodic-cv-bridge                        1.13.0-0bionic.20210505.032238                   amd64        This contains CvBridge, which converts between ROS Image messages and OpenCV images.
+ii  ros-melodic-depth-image-proc                 1.15.0-1bionic.20210505.044041                   amd64        Contains nodelets for processing depth images such as those produced by OpenNI camera.
+ii  ros-melodic-desktop                          1.4.1-0bionic.20210601.162405                    amd64        A metapackage to aggregate several packages.
+ii  ros-melodic-desktop-full                     1.4.1-0bionic.20210601.163047                    amd64        A metapackage to aggregate several packages.
+ii  ros-melodic-diagnostic-aggregator            1.9.7-1bionic.20210505.023803                    amd64        diagnostic_aggregator
+ii  ros-melodic-diagnostic-analysis              1.9.7-1bionic.20210505.024556                    amd64        The diagnostic_analysis package can convert a log of diagnostics data into a series of CSV files.
+ii  ros-melodic-diagnostic-common-diagnostics    1.9.7-1bionic.20210505.040901                    amd64        diagnostic_common_diagnostics
+ii  ros-melodic-diagnostic-msgs                  1.12.8-1bionic.20210505.010947                   amd64        This package holds the diagnostic messages which provide the standardized interface for the diagnostic and runtime monitoring systems in ROS.
+ii  ros-melodic-diagnostic-updater               1.9.7-1bionic.20210505.022654                    amd64        diagnostic_updater contains tools for easily updating diagnostics.
+ii  ros-melodic-diagnostics                      1.9.7-1bionic.20210505.042729                    amd64        diagnostics
+ii  ros-melodic-diff-drive-controller            0.17.2-1bionic.20210601.161205                   amd64        Controller for a differential drive mobile base.
+ii  ros-melodic-dwa-local-planner                1.16.7-1bionic.20210505.042056                   amd64        This package provides an implementation of the Dynamic Window Approach to local robot navigation on a plane.
+ii  ros-melodic-dynamic-reconfigure              1.6.3-1bionic.20210505.024856                    amd64        The dynamic_reconfigure package provides a means to update parameters at runtime without having to restart the node.
+ii  ros-melodic-eigen-conversions                1.12.1-1bionic.20210505.012246                   amd64        Conversion functions between: - Eigen and KDL - Eigen and geometry_msgs.
+ii  ros-melodic-executive-smach                  2.0.1-0bionic.20210505.053000                    amd64        This metapackage depends on the SMACH library and ROS SMACH integration packages.
+ii  ros-melodic-fake-localization                1.16.7-1bionic.20210505.031746                   amd64        A ROS node that simply forwards odometry information.
+ii  ros-melodic-filters                          1.8.1-0bionic.20210505.023757                    amd64        This library provides a standardized interface for processing data as a sequence of filters.
+ii  ros-melodic-forward-command-controller       0.17.2-1bionic.20210505.031047                   amd64        forward_command_controller
+ii  ros-melodic-gazebo-dev                       2.8.7-1bionic.20201015.050828                    amd64        Provides a cmake config for the default version of Gazebo for the ROS distribution.
+ii  ros-melodic-gazebo-msgs                      2.8.7-1bionic.20210505.032710                    amd64        Message and service data structures for interacting with Gazebo from ROS.
+ii  ros-melodic-gazebo-plugins                   2.8.7-1bionic.20210505.041323                    amd64        Robot-independent Gazebo plugins for sensors, motors and dynamic reconfigurable components.
+ii  ros-melodic-gazebo-ros                       2.8.7-1bionic.20210505.040713                    amd64        Provides ROS plugins that offer message and service publishers for interfacing with Gazebo through ROS.
+ii  ros-melodic-gazebo-ros-control               2.8.7-1bionic.20210505.041342                    amd64        gazebo_ros_control
+ii  ros-melodic-gazebo-ros-pkgs                  2.8.7-1bionic.20210505.053420                    amd64        Interface for using ROS with the Gazebo simulator.
+ii  ros-melodic-gencpp                           0.6.5-1bionic.20201017.032453                    amd64        C++ ROS message and service generators.
+ii  ros-melodic-geneus                           2.2.6-0bionic.20201017.032432                    amd64        EusLisp ROS message and service generators.
+ii  ros-melodic-genlisp                          0.4.16-0bionic.20201017.032516                   amd64        Common-Lisp ROS message and service generators.
+ii  ros-melodic-genmsg                           0.5.16-1bionic.20201017.031430                   amd64        Standalone Python library for generating ROS message and service data structures for various languages.
+ii  ros-melodic-gennodejs                        2.0.1-0bionic.20201017.032446                    amd64        Javascript ROS message and service generators.
+ii  ros-melodic-genpy                            0.6.16-1bionic.20210505.005001                   amd64        Python ROS message and service generators.
+ii  ros-melodic-geographic-msgs                  0.5.3-0bionic.20210505.012238                    amd64        ROS messages for Geographic Information Systems.
+ii  ros-melodic-geometry                         1.12.1-1bionic.20210505.035349                   amd64        A metapackage for geometry library suite.
+ii  ros-melodic-geometry-msgs                    1.12.8-1bionic.20210505.011050                   amd64        geometry_msgs provides messages for common geometric primitives such as points, vectors, and poses.
+ii  ros-melodic-geometry-tutorials               0.2.2-0bionic.20210505.053103                    amd64        Metapackage of geometry tutorials ROS.
+ii  ros-melodic-gl-dependency                    1.1.0-0bionic.20200801.033702                    amd64        This encapsulates the GL dependency for a specific ROS distribution and its Qt version
+ii  ros-melodic-hardware-interface               0.18.3-1bionic.20210505.020810                   amd64        Hardware Interface base class.
+ii  ros-melodic-image-common                     1.11.13-0bionic.20210505.052808                  amd64        Common code for working with images in ROS.
+ii  ros-melodic-image-geometry                   1.13.0-0bionic.20210505.032728                   amd64        `image_geometry` contains C++ and Python libraries for interpreting images geometrically.
+ii  ros-melodic-image-pipeline                   1.15.0-1bionic.20210505.053506                   amd64        image_pipeline fills the gap between getting raw images from a camera driver and higher-level vision processing.
+ii  ros-melodic-image-proc                       1.15.0-1bionic.20210505.035446                   amd64        Single image rectification and color processing.
+ii  ros-melodic-image-publisher                  1.15.0-1bionic.20210505.032847                   amd64        Contains a node publish an image stream from single image file or avi motion file.
+ii  ros-melodic-image-rotate                     1.15.0-1bionic.20210505.032832                   amd64        Contains a node that rotates an image stream in a way that minimizes the angle between a vector in some arbitrary frame and a vector in the camera frame.
+ii  ros-melodic-image-transport                  1.11.13-0bionic.20210505.025633                  amd64        image_transport should always be used to subscribe to and publish images.
+ii  ros-melodic-image-transport-plugins          1.9.5-0bionic.20210505.054659                    amd64        A set of plugins for publishing and subscribing to sensor_msgs/Image topics in representations other than raw pixel data.
+ii  ros-melodic-image-view                       1.15.0-1bionic.20210505.043951                   amd64        A simple viewer for ROS image topics.
+ii  ros-melodic-interactive-marker-tutorials     0.10.5-1bionic.20210505.041303                   amd64        The interactive_marker_tutorials package
+ii  ros-melodic-interactive-markers              1.11.5-1bionic.20210505.040626                   amd64        3D interactive marker communication library for RViz and similar tools.
+ii  ros-melodic-joint-limits-interface           0.18.3-1bionic.20210505.022742                   amd64        Interface for enforcing joint limits.
+ii  ros-melodic-joint-state-controller           0.17.2-1bionic.20210505.030919                   amd64        Controller to publish joint state
+ii  ros-melodic-joint-state-publisher            1.12.15-1bionic.20210505.031159                  amd64        This package contains a tool for setting and publishing joint state values for a given URDF.
+ii  ros-melodic-joy                              1.14.0-1bionic.20210505.032331                   amd64        ROS driver for a generic Linux joystick.
+ii  ros-melodic-kdl-conversions                  1.12.1-1bionic.20210505.012440                   amd64        Conversion functions between KDL and geometry_msgs types.
+ii  ros-melodic-kdl-parser                       1.13.1-0bionic.20210505.022757                   amd64        The Kinematics and Dynamics Library (KDL) defines a tree structure to represent the kinematic and dynamic parameters of a robot mechanism.
+ii  ros-melodic-kdl-parser-py                    1.13.1-0bionic.20210505.022835                   amd64        The Kinematics and Dynamics Library (KDL) defines a tree structure to represent the kinematic and dynamic parameters of a robot mechanism.
+ii  ros-melodic-kinect2-description              0.1.0-1bionic.20200402.191744                    amd64        Description of Kinect V2 sensor on a stand.
+ii  ros-melodic-laser-assembler                  1.7.7-2bionic.20210505.035949                    amd64        Provides nodes to assemble point clouds from either LaserScan or PointCloud messages
+ii  ros-melodic-laser-filters                    1.8.11-1bionic.20210505.040406                   amd64        Assorted filters designed to operate on 2D planar laser scanners, which use the sensor_msgs/LaserScan type.
+ii  ros-melodic-laser-geometry                   1.6.7-1bionic.20210505.035356                    amd64        This package contains a class for converting from a 2D laser scan as defined by sensor_msgs/LaserScan into a point cloud as defined by sensor_msgs/PointCloud or sensor_msgs/PointCloud2.
+ii  ros-melodic-laser-pipeline                   1.6.3-0bionic.20210505.054149                    amd64        Meta-package of libraries for processing laser data, including converting laser data into 3D representations.
+ii  ros-melodic-libg2o                           2018.3.25-0bionic.20201015.025147                amd64        The libg2o library from http://openslam.org/g2o.html
+ii  ros-melodic-librviz-tutorial                 0.10.5-1bionic.20210505.050328                   amd64        Tutorial showing how to compile your own C++ program with RViz displays and features.
+ii  ros-melodic-map-msgs                         1.14.1-1bionic.20210505.032447                   amd64        This package defines messages commonly used in mapping packages.
+ii  ros-melodic-map-server                       1.16.7-1bionic.20210505.023750                   amd64        map_server provides the map_server ROS Node, which offers map data as a ROS Service.
+ii  ros-melodic-mbf-abstract-core                0.3.4-1bionic.20210505.012244                    amd64        This package provides common interfaces for navigation specific robot actions.
+ii  ros-melodic-mbf-costmap-core                 0.3.4-1bionic.20210505.041445                    amd64        This package provides common interfaces for navigation specific robot actions.
+ii  ros-melodic-mbf-msgs                         0.3.4-1bionic.20210505.012613                    amd64        The move_base_flex messages package providing the action definition files for the action GetPath, ExePath, Recovery and MoveBase.
+ii  ros-melodic-mbf-utility                      0.3.4-1bionic.20210505.034558                    amd64        The mbf_utility package
+ii  ros-melodic-media-export                     0.3.0-1bionic.20201017.230652                    amd64        Placeholder package enabling generic export of media paths.
+ii  ros-melodic-message-filters                  1.14.11-1bionic.20210505.022205                  amd64        A set of message filters which take in messages and may output those messages at a later time, based on the conditions that filter needs met.
+ii  ros-melodic-message-generation               0.4.1-1bionic.20210505.005154                    amd64        Package modeling the build-time dependencies for generating language bindings of messages.
+ii  ros-melodic-message-runtime                  0.4.12-0bionic.20210505.005252                   amd64        Package modeling the run-time dependencies for language bindings of messages.
+ii  ros-melodic-mk                               1.14.9-1bionic.20210505.012214                   amd64        A collection of .mk include files for building ROS architectural elements.
+ii  ros-melodic-move-base                        1.16.7-1bionic.20210505.042506                   amd64        The move_base package provides an implementation of an action (see the actionlib package) that, given a goal in the world, will attempt to reach it with a mobile base.
+ii  ros-melodic-move-base-msgs                   1.14.1-1bionic.20210505.012455                   amd64        Holds the action description and relevant messages for the move_base package.
+ii  ros-melodic-nav-core                         1.16.7-1bionic.20210505.041027                   amd64        This package provides common interfaces for navigation specific robot actions.
+ii  ros-melodic-nav-msgs                         1.12.8-1bionic.20210505.012414                   amd64        nav_msgs defines the common messages used to interact with the navigation stack.
+ii  ros-melodic-navfn                            1.16.7-1bionic.20210505.041420                   amd64        navfn provides a fast interpolated navigation function that can be used to create plans for a mobile base.
+ii  ros-melodic-nodelet                          1.9.16-0bionic.20210505.020924                   amd64        The nodelet package is designed to provide a way to run multiple algorithms in the same process with zero copy transport between algorithms.
+ii  ros-melodic-nodelet-core                     1.9.16-0bionic.20210505.032213                   amd64        Nodelet Core Metapackage
+ii  ros-melodic-nodelet-topic-tools              1.9.16-0bionic.20210505.025132                   amd64        This package contains common nodelet tools such as a mux, demux and throttle.
+ii  ros-melodic-nodelet-tutorial-math            0.1.11-0bionic.20210505.021335                   amd64        Package for Nodelet tutorial.
+ii  ros-melodic-orocos-kdl                       1.4.0-0bionic.20201017.031444                    amd64        This package contains a recent version of the Kinematics and Dynamics Library (KDL), distributed by the Orocos Project.
+ii  ros-melodic-pcl-conversions                  1.7.1-1bionic.20210505.044342                    amd64        Provides conversions from PCL data types and ROS message types
+ii  ros-melodic-pcl-msgs                         0.2.0-0bionic.20210505.043730                    amd64        Package containing PCL (Point Cloud Library)-related ROS messages.
+ii  ros-melodic-pcl-ros                          1.7.1-1bionic.20210505.045052                    amd64        PCL (Point Cloud Library) ROS interface stack.
+ii  ros-melodic-perception                       1.4.1-0bionic.20210505.055245                    amd64        A metapackage to aggregate several packages.
+ii  ros-melodic-perception-pcl                   1.7.1-1bionic.20210505.054719                    amd64        PCL (Point Cloud Library) ROS interface stack.
+ii  ros-melodic-pluginlib                        1.12.1-0bionic.20210505.012832                   amd64        The pluginlib package provides tools for writing and dynamically loading plugins using the ROS build infrastructure.
+ii  ros-melodic-pluginlib-tutorials              0.1.11-0bionic.20210505.020545                   amd64        The pluginlib_tutorials package
+ii  ros-melodic-pointcloud-to-laserscan          1.4.1-1bionic.20210505.040213                    amd64        Converts a 3D Point Cloud into a 2D laser scan.
+ii  ros-melodic-polled-camera                    1.11.13-0bionic.20210505.030141                  amd64        polled_camera contains a service and C++ helper classes for implementing a polled camera driver node and requesting images from it.
+ii  ros-melodic-position-controllers             0.17.2-1bionic.20210505.031508                   amd64        position_controllers
+ii  ros-melodic-python-orocos-kdl                1.4.0-0bionic.20201017.032955                    amd64        This package contains the python bindings PyKDL for the Kinematics and Dynamics Library (KDL), distributed by the Orocos Project.
+ii  ros-melodic-python-qt-binding                0.4.3-1bionic.20210505.012216                    amd64        This stack provides Python bindings for Qt.
+ii  ros-melodic-qt-dotgraph                      0.4.2-1bionic.20210505.012849                    amd64        qt_dotgraph provides helpers to work with dot graphs.
+ii  ros-melodic-qt-gui                           0.4.2-1bionic.20210505.012901                    amd64        qt_gui provides the infrastructure for an integrated graphical user interface based on Qt.
+ii  ros-melodic-qt-gui-cpp                       0.4.2-1bionic.20210505.013751                    amd64        qt_gui_cpp provides the foundation for C++-bindings for qt_gui and creates bindings for every generator available.
+ii  ros-melodic-qt-gui-py-common                 0.4.2-1bionic.20210505.012905                    amd64        qt_gui_py_common provides common functionality for GUI plugins written in Python.
+ii  ros-melodic-qwt-dependency                   1.1.0-0bionic.20200801.023248                    amd64        This encapsulates the Qwt dependency for a specific ROS distribution and its Qt version
+ii  ros-melodic-realtime-tools                   1.15.1-1bionic.20210505.030506                   amd64        Contains a set of tools that can be used from a hard realtime thread, without breaking the realtime behavior.
+ii  ros-melodic-resource-retriever               1.12.6-1bionic.20210505.012837                   amd64        This package retrieves data from url-format files such as http://, ftp://, package:// file://, etc., and loads the data into memory.
+ii  ros-melodic-robot                            1.4.1-0bionic.20210601.161225                    amd64        A metapackage which extends ros_base and includes ROS libaries for any robot hardware.
+ii  ros-melodic-robot-localization               2.6.9-1bionic.20210505.031644                    amd64        Provides nonlinear state estimation through sensor fusion of an abritrary number of sensors.
+ii  ros-melodic-robot-pose-publisher             0.2.4-1bionic.20191115.211702                    amd64        A Simple Node to Publish the Robot's Position Relative to the Map using TFs
+ii  ros-melodic-robot-state-publisher            1.14.1-1bionic.20210505.035110                   amd64        This package allows you to publish the state of a robot to tf.
+ii  ros-melodic-ros                              1.14.9-1bionic.20210505.012339                   amd64        ROS packaging system
+ii  ros-melodic-ros-base                         1.4.1-0bionic.20210505.053238                    amd64        A metapackage which extends ros_core and includes other basic non-robot tools like actionlib, dynamic reconfigure, nodelets, and pluginlib.
+ii  ros-melodic-ros-comm                         1.14.11-1bionic.20210505.032459                  amd64        ROS communications-related packages, including core client libraries (roscpp, rospy) and graph introspection tools (rostopic, rosnode, rosservice, rosparam).
+ii  ros-melodic-ros-core                         1.4.1-0bionic.20210505.053151                    amd64        A metapackage to aggregate the packages required to use publish / subscribe, services, launch files, and other core ROS concepts.
+ii  ros-melodic-ros-environment                  1.2.3-1bionic.20201015.052244                    amd64        The package provides the environment variables `ROS_VERSION`, `ROS_DISTRO`, `ROS_PACKAGE_PATH`, and `ROS_ETC_DIR`.
+ii  ros-melodic-ros-tutorials                    0.9.3-1bionic.20210505.024644                    amd64        ros_tutorials contains packages that demonstrate various features of ROS, as well as support packages which help demonstrate those features.
+ii  ros-melodic-rosbag                           1.14.11-1bionic.20210505.024009                  amd64        This is a set of tools for recording from and playing back to ROS topics.
+ii  ros-melodic-rosbag-migration-rule            1.0.0-0bionic.20200801.040144                    amd64        This empty package allows to export rosbag migration rule files without depending on rosbag.
+ii  ros-melodic-rosbag-storage                   1.14.11-1bionic.20210505.022445                  amd64        This is a set of tools for recording from and playing back ROS message without relying on the ROS client library.
+ii  ros-melodic-rosbash                          1.14.9-1bionic.20201016.105914                   amd64        Assorted shell commands for using ros with bash.
+ii  ros-melodic-rosboost-cfg                     1.14.9-1bionic.20201015.020311                   amd64        Contains scripts used by the rosboost-cfg tool for determining cflags/lflags/etc.
+ii  ros-melodic-rosbuild                         1.14.9-1bionic.20210505.005821                   amd64        rosbuild contains scripts for managing the CMake-based build system for ROS.
+ii  ros-melodic-rosclean                         1.14.9-1bionic.20201015.071027                   amd64        rosclean: cleanup filesystem resources (e.g.
+ii  ros-melodic-rosconsole                       1.13.18-1bionic.20210505.012210                  amd64        ROS console output library.
+ii  ros-melodic-rosconsole-bridge                0.5.3-0bionic.20210505.012837                    amd64        rosconsole_bridge is a package used in conjunction with console_bridge and rosconsole for connecting console_bridge-based logging to rosconsole-based logging.
+ii  ros-melodic-roscpp                           1.14.11-1bionic.20210505.013942                  amd64        roscpp is a C++ implementation of ROS.
+ii  ros-melodic-roscpp-core                      0.6.14-1bionic.20200801.065849                   amd64        Underlying data libraries for roscpp messages.
+ii  ros-melodic-roscpp-serialization             0.6.14-1bionic.20200801.063506                   amd64        roscpp_serialization contains the code for serialization as described in MessagesSerializationAndAdaptingTypes.
+ii  ros-melodic-roscpp-traits                    0.6.14-1bionic.20200801.063118                   amd64        roscpp_traits contains the message traits code as described in MessagesTraits.
+ii  ros-melodic-roscpp-tutorials                 0.9.3-1bionic.20210505.015623                    amd64        This package attempts to show the features of ROS step-by-step, including using messages, servers, parameters, etc.
+ii  ros-melodic-roscreate                        1.14.9-1bionic.20201017.031701                   amd64        roscreate contains a tool that assists in the creation of ROS filesystem resources.
+ii  ros-melodic-rosgraph                         1.14.11-1bionic.20210427.131603                  amd64        rosgraph contains the rosgraph command-line tool, which prints information about the ROS Computation Graph.
+ii  ros-melodic-rosgraph-msgs                    1.11.2-0bionic.20210505.012040                   amd64        Messages relating to the ROS Computation Graph.
+ii  ros-melodic-roslang                          1.14.9-1bionic.20201017.032441                   amd64        roslang is a common package that all ROS client libraries depend on.
+ii  ros-melodic-roslaunch                        1.14.11-1bionic.20210505.020855                  amd64        roslaunch is a tool for easily launching multiple ROS nodes locally and remotely via SSH, as well as setting parameters on the Parameter Server.
+ii  ros-melodic-roslib                           1.14.9-1bionic.20201016.105810                   amd64        Base dependencies and support libraries for ROS.
+ii  ros-melodic-roslint                          0.11.2-0bionic.20200801.040407                   amd64        CMake lint commands for ROS packages.
+ii  ros-melodic-roslisp                          1.9.24-1bionic.20210505.012221                   amd64        Lisp client library for ROS, the Robot Operating System.
+ii  ros-melodic-roslz4                           1.14.11-1bionic.20210427.131625                  amd64        A Python and C++ implementation of the LZ4 streaming format.
+ii  ros-melodic-rosmake                          1.14.9-1bionic.20201015.052555                   amd64        rosmake is a ros dependency aware build tool which can be used to build all dependencies in the correct order.
+ii  ros-melodic-rosmaster                        1.14.11-1bionic.20210427.132257                  amd64        ROS Master implementation.
+ii  ros-melodic-rosmsg                           1.14.11-1bionic.20210505.024558                  amd64        rosmsg contains two command-line tools: rosmsg and rossrv.
+ii  ros-melodic-rosnode                          1.14.11-1bionic.20210505.024856                  amd64        rosnode is a command-line tool for displaying debug information about ROS Nodes, including publications, subscriptions and connections.
+ii  ros-melodic-rosout                           1.14.11-1bionic.20210505.015808                  amd64        System-wide logging mechanism for messages sent to the /rosout topic.
+ii  ros-melodic-rospack                          2.5.6-1bionic.20201015.070131                    amd64        ROS Package Tool
+ii  ros-melodic-rosparam                         1.14.11-1bionic.20210427.132258                  amd64        rosparam contains the rosparam command-line tool for getting and setting ROS Parameters on the Parameter Server using YAML-encoded files.
+ii  ros-melodic-rospy                            1.14.11-1bionic.20210505.015811                  amd64        rospy is a pure Python client library for ROS.
+ii  ros-melodic-rospy-tutorials                  0.9.3-1bionic.20210505.023328                    amd64        This package attempts to show the features of ROS python API step-by-step, including using messages, servers, parameters, etc.
+ii  ros-melodic-rosservice                       1.14.11-1bionic.20210505.024812                  amd64        rosservice contains the rosservice command-line tool for listing and querying ROS Services.
+ii  ros-melodic-rostest                          1.14.11-1bionic.20210505.022101                  amd64        Integration test suite based on roslaunch that is compatible with xUnit frameworks.
+ii  ros-melodic-rostime                          0.6.14-1bionic.20200801.051100                   amd64        Time and Duration implementations for C++ libraries, including roscpp.
+ii  ros-melodic-rostopic                         1.14.11-1bionic.20210505.024549                  amd64        rostopic contains the rostopic command-line tool for displaying debug information about ROS Topics, including publishers, subscribers, publishing rate, and ROS Messages.
+ii  ros-melodic-rosunit                          1.14.9-1bionic.20201017.031507                   amd64        Unit-testing package for ROS.
+ii  ros-melodic-roswtf                           1.14.11-1bionic.20210505.032156                  amd64        roswtf is a tool for diagnosing issues with a running ROS system.
+ii  ros-melodic-rotate-recovery                  1.16.7-1bionic.20210505.042037                   amd64        This package provides a recovery behavior for the navigation stack that attempts to clear space by performing a 360 degree rotation of the robot.
+ii  ros-melodic-rqt-action                       0.4.9-0bionic.20210505.032001                    amd64        rqt_action provides a feature to introspect all available ROS action (from actionlib) types.
+ii  ros-melodic-rqt-bag                          0.5.1-1bionic.20210505.030223                    amd64        rqt_bag provides a GUI plugin for displaying and replaying ROS bag files.
+ii  ros-melodic-rqt-bag-plugins                  0.5.1-1bionic.20210505.031403                    amd64        rqt_bag provides a GUI plugin for displaying and replaying ROS bag files.
+ii  ros-melodic-rqt-common-plugins               0.4.8-0bionic.20210505.042624                    amd64        rqt_common_plugins metapackage provides ROS backend graphical tools suite that can be used on/off of robot runtime.
+ii  ros-melodic-rqt-console                      0.4.9-1bionic.20210505.031441                    amd64        rqt_console provides a GUI plugin for displaying and filtering ROS messages.
+ii  ros-melodic-rqt-dep                          0.4.9-0bionic.20210505.032320                    amd64        rqt_dep provides a GUI plugin for visualizing the ROS dependency graph.
+ii  ros-melodic-rqt-graph                        0.4.11-1bionic.20210505.030154                   amd64        rqt_graph provides a GUI plugin for visualizing the ROS computation graph.
+ii  ros-melodic-rqt-gui                          0.5.2-1bionic.20210505.021441                    amd64        rqt_gui provides the main to start an instance of the ROS integrated graphical user interface provided by qt_gui.
+ii  ros-melodic-rqt-gui-cpp                      0.5.2-1bionic.20210505.022126                    amd64        rqt_gui_cpp enables GUI plugins to use the C++ client library for ROS.
+ii  ros-melodic-rqt-gui-py                       0.5.2-1bionic.20210505.022023                    amd64        rqt_gui_py enables GUI plugins to use the Python client library for ROS.
+ii  ros-melodic-rqt-image-view                   0.4.16-1bionic.20210505.032821                   amd64        rqt_image_view provides a GUI plugin for displaying images using image_transport.
+ii  ros-melodic-rqt-launch                       0.4.8-0bionic.20210505.031532                    amd64        This rqt plugin ROS package provides easy view of .launch files.
+ii  ros-melodic-rqt-logger-level                 0.4.8-0bionic.20210505.030208                    amd64        rqt_logger_level provides a GUI plugin for configuring the logger level of ROS nodes.
+ii  ros-melodic-rqt-moveit                       0.5.10-1bionic.20210505.031448                   amd64        An rqt-based tool that assists monitoring tasks for MoveIt! motion planner developers and users.
+ii  ros-melodic-rqt-msg                          0.4.8-0bionic.20210505.031540                    amd64        A Python GUI plugin for introspecting available ROS message types.
+ii  ros-melodic-rqt-nav-view                     0.5.7-0bionic.20210505.034455                    amd64        rqt_nav_view provides a gui for viewing navigation maps and paths.
+ii  ros-melodic-rqt-plot                         0.4.13-1bionic.20210505.031325                   amd64        rqt_plot provides a GUI plugin visualizing numeric values in a 2D plot using different plotting backends.
+ii  ros-melodic-rqt-pose-view                    0.5.8-0bionic.20210505.034714                    amd64        rqt_pose_view provides a GUI plugin for visualizing 3D poses.
+ii  ros-melodic-rqt-publisher                    0.4.8-0bionic.20210505.031447                    amd64        rqt_publisher provides a GUI plugin for publishing arbitrary messages with fixed or computed field values.
+ii  ros-melodic-rqt-py-common                    0.5.2-1bionic.20210505.031051                    amd64        rqt_py_common provides common functionality for rqt plugins written in Python.
+ii  ros-melodic-rqt-py-console                   0.4.8-0bionic.20210505.022348                    amd64        rqt_py_console is a Python GUI plugin providing an interactive Python console.
+ii  ros-melodic-rqt-reconfigure                  0.5.4-1bionic.20210505.031528                    amd64        This rqt plugin succeeds former dynamic_reconfigure's GUI (reconfigure_gui), and provides the way to view and edit the parameters that are accessible via dynamic_reconfigure.
+ii  ros-melodic-rqt-robot-dashboard              0.5.7-0bionic.20210505.034535                    amd64        rqt_robot_dashboard provides an infrastructure for building robot dashboard plugins in rqt.
+ii  ros-melodic-rqt-robot-monitor                0.5.13-1bionic.20210505.031334                   amd64        rqt_robot_monitor displays diagnostics_agg topics messages that are published by diagnostic_aggregator.
+ii  ros-melodic-rqt-robot-plugins                0.5.7-0bionic.20210505.052151                    amd64        Metapackage of rqt plugins that are particularly used with robots during its operation.
+ii  ros-melodic-rqt-robot-steering               0.5.10-1bionic.20210505.024935                   amd64        rqt_robot_steering provides a GUI plugin for steering a robot using Twist messages.
+ii  ros-melodic-rqt-runtime-monitor              0.5.7-0bionic.20210505.022353                    amd64        rqt_runtime_monitor provides a GUI plugin viewing DiagnosticsArray messages.
+ii  ros-melodic-rqt-rviz                         0.6.0-0bionic.20210505.050255                    amd64        rqt_rviz provides a GUI plugin embedding RViz.
+ii  ros-melodic-rqt-service-caller               0.4.8-0bionic.20210505.032305                    amd64        rqt_service_caller provides a GUI plugin for calling arbitrary services.
+ii  ros-melodic-rqt-shell                        0.4.9-0bionic.20210505.023722                    amd64        rqt_shell is a Python GUI plugin providing an interactive shell.
+ii  ros-melodic-rqt-srv                          0.4.8-0bionic.20210505.032044                    amd64        A Python GUI plugin for introspecting available ROS message types.
+ii  ros-melodic-rqt-tf-tree                      0.6.0-0bionic.20210505.031250                    amd64        rqt_tf_tree provides a GUI plugin for visualizing the ROS TF frame tree.
+ii  ros-melodic-rqt-top                          0.4.8-0bionic.20210505.022358                    amd64        RQT plugin for monitoring ROS processes.
+ii  ros-melodic-rqt-topic                        0.4.11-1bionic.20210505.024955                   amd64        rqt_topic provides a GUI plugin for displaying debug information about ROS topics including publishers, subscribers, publishing rate, and ROS Messages.
+ii  ros-melodic-rqt-web                          0.4.8-0bionic.20210505.022403                    amd64        rqt_web is a simple web content viewer for rqt.
+ii  ros-melodic-rviz                             1.13.17-1bionic.20210505.041235                  amd64        3D visualization tool for ROS.
+ii  ros-melodic-rviz-plugin-tutorials            0.10.5-1bionic.20210505.054826                   amd64        Tutorials showing how to write plugins for RViz.
+ii  ros-melodic-rviz-python-tutorial             0.10.5-1bionic.20210505.054856                   amd64        Tutorials showing how to call into rviz internals from python scripts.
+ii  ros-melodic-self-test                        1.9.7-1bionic.20210505.023034                    amd64        self_test
+ii  ros-melodic-sensor-msgs                      1.12.8-1bionic.20210505.024709                   amd64        This package defines messages for commonly used sensors, including cameras and scanning laser rangefinders.
+ii  ros-melodic-serial                           1.2.1-0bionic.20200801.023456                    amd64        Serial is a cross-platform, simple to use library for using serial ports on computers.
+ii  ros-melodic-shape-msgs                       1.12.8-1bionic.20210505.011747                   amd64        This package contains messages for defining shapes, such as simple solid object primitives (cube, sphere, etc), planes, and meshes.
+ii  ros-melodic-simulators                       1.4.1-0bionic.20210601.162403                    amd64        A metapackage to aggregate several packages.
+ii  ros-melodic-smach                            2.0.1-0bionic.20200801.033721                    amd64        SMACH is a task-level architecture for rapidly creating complex robot behavior.
+ii  ros-melodic-smach-msgs                       2.0.1-0bionic.20210505.012056                    amd64        this package contains a set of messages that are used by the introspection interfaces for smach.
+ii  ros-melodic-smach-ros                        2.0.1-0bionic.20210505.031056                    amd64        The smach_ros package contains extensions for the SMACH library to integrate it tightly with ROS.
+ii  ros-melodic-smclib                           1.8.5-1bionic.20200801.035835                    amd64        The State Machine Compiler (SMC) from http://smc.sourceforge.net/ converts a language-independent description of a state machine into the source code to support that state machine.
+ii  ros-melodic-stage                            4.3.0-0bionic.20201015.035745                    amd64        Mobile robot simulator http://rtv.github.com/Stage
+ii  ros-melodic-stage-ros                        1.8.0-0bionic.20210505.035838                    amd64        This package provides ROS specific hooks for stage
+ii  ros-melodic-std-msgs                         0.5.12-0bionic.20210505.005906                   amd64        Standard ROS Messages including common message types representing primitive data types and other basic message constructs, such as multiarrays.
+ii  ros-melodic-std-srvs                         1.11.2-0bionic.20210505.005914                   amd64        Common service definitions.
+ii  ros-melodic-stereo-image-proc                1.15.0-1bionic.20210505.044145                   amd64        Stereo and single image rectification and disparity processing.
+ii  ros-melodic-stereo-msgs                      1.12.8-1bionic.20210505.043847                   amd64        stereo_msgs contains messages specific to stereo processing, such as disparity images.
+ii  ros-melodic-teb-local-planner                0.8.4-1bionic.20210505.041952                    amd64        The teb_local_planner package implements a plugin to the base_local_planner of the 2D navigation stack.
+ii  ros-melodic-tf                               1.12.1-1bionic.20210505.032504                   amd64        tf is a package that lets the user keep track of multiple coordinate frames over time.
+ii  ros-melodic-tf-conversions                   1.12.1-1bionic.20210505.034735                   amd64        This package contains a set of conversion functions to convert common tf datatypes (point, vector, pose, etc) into semantically identical datatypes used by other libraries.
+ii  ros-melodic-tf2                              0.6.5-0bionic.20210505.012642                    amd64        tf2 is the second generation of the transform library, which lets the user keep track of multiple coordinate frames over time.
+ii  ros-melodic-tf2-eigen                        0.6.5-0bionic.20210505.012921                    amd64        tf2_eigen
+ii  ros-melodic-tf2-geometry-msgs                0.6.5-0bionic.20210505.031257                    amd64        tf2_geometry_msgs
+ii  ros-melodic-tf2-kdl                          0.6.5-0bionic.20210505.031502                    amd64        KDL binding for tf2
+ii  ros-melodic-tf2-msgs                         0.6.5-0bionic.20210505.012524                    amd64        tf2_msgs
+ii  ros-melodic-tf2-py                           0.6.5-0bionic.20210505.021634                    amd64        The tf2_py package
+ii  ros-melodic-tf2-ros                          0.6.5-0bionic.20210505.030754                    amd64        This package contains the ROS bindings for the tf2 library, for both Python and C++.
+ii  ros-melodic-tf2-sensor-msgs                  0.6.5-0bionic.20210505.031317                    amd64        Small lib to transform sensor_msgs with tf.
+ii  ros-melodic-theora-image-transport           1.9.5-0bionic.20210505.042804                    amd64        Theora_image_transport provides a plugin to image_transport for transparently sending an image stream encoded with the Theora codec.
+ii  ros-melodic-thorvald                         2.1.1-1bionic.20210714.144712                    amd64        Metapackage for Thorvald II software
+ii  ros-melodic-thorvald-2dnav                   2.1.1-1bionic.20210714.115540                    amd64        The thorvald_2dnav package
+ii  ros-melodic-thorvald-base                    2.1.1-1bionic.20210714.120926                    amd64        This package handles communication between ros and the thorvald mobile base
+ii  ros-melodic-thorvald-base-dbgsym             2.1.1-1bionic.20210714.120926                    amd64        debug symbols for ros-melodic-thorvald-base
+ii  ros-melodic-thorvald-bringup                 2.1.1-1bionic.20210714.122810                    amd64        Launch files for bringing up Thorvald II robots
+ii  ros-melodic-thorvald-can-devices             2.1.1-1bionic.20210714.115815                    amd64        This package provide an interfaces for motor drives and batteries.
+ii  ros-melodic-thorvald-can-devices-dbgsym      2.1.1-1bionic.20210714.115815                    amd64        debug symbols for ros-melodic-thorvald-can-devices
+ii  ros-melodic-thorvald-description             2.1.1-1bionic.20210714.115257                    amd64        A package for generating Thorvald II model descriptions
+ii  ros-melodic-thorvald-example-robots          2.1.1-1bionic.20210714.145234                    amd64        Launch files for bringing up Thorvald II robots
+ii  ros-melodic-thorvald-extras                  2.1.1-1bionic.20210714.122758                    amd64        The thorvald_extras package
+ii  ros-melodic-thorvald-gazebo-plugins          2.1.1-1bionic.20210714.122813                    amd64        The thorvald_gazebo_plugins package
+ii  ros-melodic-thorvald-gazebo-plugins-dbgsym   2.1.1-1bionic.20210714.122813                    amd64        debug symbols for ros-melodic-thorvald-gazebo-plugins
+ii  ros-melodic-thorvald-gui                     2.1.1-1bionic.20210714.122816                    amd64        GUIs for the Thorvald II robot
+ii  ros-melodic-thorvald-msgs                    2.1.1-1bionic.20210714.113350                    amd64        The thorvald_msgs package
+ii  ros-melodic-thorvald-simulator               2.1.1-1bionic.20210714.145233                    amd64        Metapackage for Thorvald II simulation software
+ii  ros-melodic-thorvald-teleop                  2.1.1-1bionic.20210714.113352                    amd64        This package converts joy messages into velocity commands for the Thorvald robotic platform
+ii  ros-melodic-thorvald-teleop-dbgsym           2.1.1-1bionic.20210714.113352                    amd64        debug symbols for ros-melodic-thorvald-teleop
+ii  ros-melodic-thorvald-twist-mux               2.1.1-1bionic.20210714.113345                    amd64        The thorvald_twist_mux package
+ii  ros-melodic-topic-tools                      1.14.11-1bionic.20210505.023616                  amd64        Tools for directing, throttling, selecting, and otherwise messing with ROS topics at a meta level.
+ii  ros-melodic-trajectory-msgs                  1.12.8-1bionic.20210505.011758                   amd64        This package defines messages for defining robot trajectories.
+ii  ros-melodic-transmission-interface           0.18.3-1bionic.20210505.021106                   amd64        Transmission Interface.
+ii  ros-melodic-turtle-actionlib                 0.1.11-0bionic.20210505.030609                   amd64        turtle_actionlib demonstrates how to write an action server and client with the turtlesim.
+ii  ros-melodic-turtle-tf                        0.2.2-0bionic.20210505.033536                    amd64        turtle_tf demonstrates how to write a tf broadcaster and listener with the turtlesim.
+ii  ros-melodic-turtle-tf2                       0.2.2-0bionic.20210505.031243                    amd64        turtle_tf2 demonstrates how to write a tf2 broadcaster and listener with the turtlesim.
+ii  ros-melodic-turtlesim                        0.9.3-1bionic.20210505.020231                    amd64        turtlesim is a tool made for teaching ROS and ROS packages.
+ii  ros-melodic-twist-mux                        3.1.1-1bionic.20210505.053235                    amd64        Twist multiplexer, which multiplex several velocity commands (topics) and allows to priorize or disable them (locks).
+ii  ros-melodic-twist-mux-msgs                   2.1.0-6bionic.20210505.052905                    amd64        The twist_mux msgs and actions package
+ii  ros-melodic-urdf                             1.13.2-1bionic.20210505.022444                   amd64        This package contains a C++ parser for the Unified Robot Description Format (URDF), which is an XML format for representing a robot model.
+ii  ros-melodic-urdf-parser-plugin               1.13.2-1bionic.20200801.033902                   amd64        This package contains a C++ base class for URDF parsers.
+ii  ros-melodic-urdf-sim-tutorial                0.4.0-0bionic.20210601.161936                    amd64        The urdf_sim_tutorial package
+ii  ros-melodic-urdf-tutorial                    0.4.0-0bionic.20210601.161854                    amd64        This package contains a number of URDF tutorials.
+ii  ros-melodic-urdfdom-py                       0.4.5-1bionic.20210505.021707                    amd64        Python implementation of the URDF parser.
+ii  ros-melodic-uuid-msgs                        1.0.6-0bionic.20210505.012122                    amd64        ROS messages for universally unique identifiers.
+ii  ros-melodic-velodyne-description             1.0.12-1bionic.20210601.162115                   amd64        URDF and meshes describing Velodyne laser scanners.
+ii  ros-melodic-velodyne-gazebo-plugins          1.0.12-1bionic.20210505.041714                   amd64        Gazebo plugin to provide simulated data from Velodyne laser scanners.
+ii  ros-melodic-vision-opencv                    1.13.0-0bionic.20210505.053318                   amd64        Packages for interfacing ROS with OpenCV, a library of programming functions for real time computer vision.
+ii  ros-melodic-visualization-marker-tutorials   0.10.5-1bionic.20210505.020237                   amd64        The visulalization_marker_tutorials package
+ii  ros-melodic-visualization-msgs               1.12.8-1bionic.20210505.011924                   amd64        visualization_msgs is a set of messages used by higher level packages, such as rviz, that deal in visualization-specific data.
+ii  ros-melodic-visualization-tutorials          0.10.5-1bionic.20210505.055356                   amd64        Metapackage referencing tutorials related to rviz and visualization.
+ii  ros-melodic-viz                              1.4.1-0bionic.20210505.054631                    amd64        A metapackage to aggregate several packages.
+ii  ros-melodic-voxel-grid                       1.16.7-1bionic.20210505.020236                   amd64        voxel_grid provides an implementation of an efficient 3D voxel grid.
+ii  ros-melodic-webkit-dependency                1.1.0-0bionic.20200801.040531                    amd64        This encapsulates the WebKit dependency for a specific ROS distribution and its Qt version
+ii  ros-melodic-xacro                            1.13.11-1bionic.20210601.153908                  amd64        Xacro (XML Macros) Xacro is an XML macro language.
+ii  ros-melodic-xmlrpcpp                         1.14.11-1bionic.20210427.131619                  amd64        XmlRpc++ is a C++ implementation of the XML-RPC protocol.
