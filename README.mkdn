@@ -23,6 +23,7 @@ sudo apt-get install ros-melodic-tf2-sensor-msgs
 sudo apt-get install geographiclib-tools 
 sudo apt-get install libgeographic-dev
 sudo apt-get install ros-melodic-pointcloud-to-laserscan
+sudo apt-get install ros-melodic-bacchus-gazebo
 
 ```
 
