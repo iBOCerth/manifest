@@ -20,6 +20,7 @@
 	  <linkfile src="thorvald_exec.desktop" dest="thorvald_exec.desktop"/>
 	  <linkfile src="killall.desktop" dest="killall.desktop"/>
   </project>
- 
+  <project path="opt_thorvald" name="iBOCerth/Thorvald_legacy_opt" revision="melodic"/>	
+
   <include name="snippets/upstream.xml" />
 </manifest>
