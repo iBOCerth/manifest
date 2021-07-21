@@ -48,3 +48,6 @@ use that in order to stop gazebo trying to find GPU
 ```
 export SVGA_VGPU10=0
 ```
+
+# !!!!!!!!!!!!Important!!!!!!!!!!!!
+Do this -> https://github.com/iBOCerth/Thorvald_legacy_opt
