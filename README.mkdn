@@ -42,3 +42,6 @@ sudo chmod 777 ~/bin/repo
 echo "export PATH=\$PATH:\$HOME/bin" >> ~/.bashrc
 ```
 Now use `repo init` as it is, via your workspace
+
+# !!!!!!!!!!!!Important!!!!!!!!!!!!
+Do this -> https://github.com/iBOCerth/Thorvald_legacy_opt
