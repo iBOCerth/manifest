@@ -6,7 +6,11 @@
 
    <remote name="private"
    		   fetch="ssh://git@github.com" />
-	   
+
+   <remote name="uav"
+	   revision="master" 
+	   remote="private" />
+	
    <default revision="refs/heads/thorvald-melodic-sim"
             remote="private"
             sync-c="true"
@@ -22,5 +26,10 @@
   </project>
   <project path="opt_thorvald" name="iBOCerth/Thorvald_legacy_opt" revision="melodic"/>	
  
+  <!-- UAV Projects -->
+  <project path="src/mavros" name="iBOCerth/mavros" remote="uav"/>	
+  <project path="src/mavlink" name="iBOCerth/mavlink" remote="uav"/>
+  <project path="src/px4-autopilot" name="iBOCerth/PX4-Autopilot" remote="uav"/>
+	
   <include name="snippets/upstream.xml" />
 </manifest>
