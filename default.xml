@@ -9,7 +9,8 @@
 
    <remote name="uav"
 	   revision="master" 
-	   remote="private" />
+	   remote="private"
+	   fetch="ssh://git@github.com"/>
 	
    <default revision="refs/heads/thorvald-melodic-sim"
             remote="private"
