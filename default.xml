@@ -12,12 +12,12 @@
 	   remote="private"
 	   fetch="ssh://git@github.com"/>
 	
-   <default revision="refs/heads/thorvald-melodic-sim"
+   <default revision="refs/heads/master"
             remote="private"
             sync-c="true"
 	        sync-j="4" />
 	
-  <project path="src/thorvald_melodic_simulation"  name="iBOCerth/thorvald_melodic_simulation" revision="thorvald-melodic-sim-uav" />
+  <project path="src/thorvald_melodic_simulation"  name="iBOCerth/thorvald_melodic_simulation" revision="uav" />
   <project path="src/navigation" name="iBOcerth/navigation" />
   <project path="src/ros_path_planner" name="iBOcerth/ros_path_planner" />
   <project path="src/ros_gps_libs" name="iBOcerth/ros_gps_libs" />
@@ -26,11 +26,6 @@
 	  <linkfile src="killall.desktop" dest="killall.desktop"/>
   </project>
   <project path="opt_thorvald" name="iBOCerth/Thorvald_legacy_opt" revision="melodic"/>	
- 
-  <!-- UAV Projects -->
-  <project path="src/mavros" name="iBOCerth/mavros" remote="uav"/>	
-  <project path="src/mavlink" name="iBOCerth/mavlink" remote="uav"/>
-  <project path="src/px4-autopilot" name="iBOCerth/PX4-Autopilot" remote="uav"/>
 	
   <include name="snippets/upstream.xml" />
 </manifest>
