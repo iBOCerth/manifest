@@ -7,7 +7,7 @@
    <remote name="private"
    		   fetch="ssh://git@github.com" />
 	   
-   <default revision="refs/heads/thorvald-melodic-sim"
+   <default revision="refs/heads/master"
             remote="private"
             sync-c="true"
 	        sync-j="4" />
