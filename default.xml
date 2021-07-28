@@ -12,16 +12,21 @@
 	   remote="private"
 	   fetch="ssh://git@github.com"/>
 	
+   <remote name="extra_packages"
+	   revision="thorvald-melodic-sim"
+	   remote="private"
+	   fetch="ssh://git@github.com"/>
+	
    <default revision="refs/heads/master"
             remote="private"
             sync-c="true"
 	        sync-j="4" />
 	
   <project path="src/thorvald_melodic_simulation"  name="iBOCerth/thorvald_melodic_simulation" revision="uav" />
-  <project path="src/navigation" name="iBOcerth/navigation" />
-  <project path="src/ros_path_planner" name="iBOcerth/ros_path_planner" />
-  <project path="src/ros_gps_libs" name="iBOcerth/ros_gps_libs" />
-  <project path="src/ibo-scripts" name="iBOcerth/ibo-scripts">
+  <project path="src/navigation" name="iBOcerth/navigation" remote="extra_packages" />
+  <project path="src/ros_path_planner" name="iBOcerth/ros_path_planner" remote="extra_packages" />
+  <project path="src/ros_gps_libs" name="iBOcerth/ros_gps_libs" remote="extra_packages" />
+  <project path="src/ibo-scripts" name="iBOcerth/ibo-scripts" remote="extra_packages">
 	  <linkfile src="thorvald_exec.desktop" dest="thorvald_exec.desktop"/>
 	  <linkfile src="killall.desktop" dest="killall.desktop"/>
   </project>
