@@ -26,7 +26,7 @@
   <project path="src/navigation" name="iBOcerth/navigation" remote="extra_packages" />
   <project path="src/ros_path_planner" name="iBOcerth/ros_path_planner" remote="extra_packages" />
   <project path="src/ros_gps_libs" name="iBOcerth/ros_gps_libs" remote="extra_packages" />
-  <project path="src/ibo-scripts" name="iBOcerth/ibo-scripts" remote="extra_packages">
+  <project path="src/ibo-scripts" name="iBOcerth/ibo-scripts" revision="thorvald-melodic-sim-uav">
 	  <linkfile src="thorvald_exec.desktop" dest="thorvald_exec.desktop"/>
 	  <linkfile src="killall.desktop" dest="killall.desktop"/>
 	  <linkfile src="s1000.desktop" dest="s1000.desktop"/>
