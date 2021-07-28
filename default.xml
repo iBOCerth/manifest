@@ -22,6 +22,7 @@
             sync-c="true"
 	        sync-j="4" />
 	
+  <project path="src/ros_uav" name="iBOCerth/ros_uav" revision="melodic" remote="uav" />	
   <project path="src/thorvald_melodic_simulation"  name="iBOCerth/thorvald_melodic_simulation" revision="uav" />
   <project path="src/navigation" name="iBOcerth/navigation" remote="extra_packages" />
   <project path="src/ros_path_planner" name="iBOcerth/ros_path_planner" remote="extra_packages" />
