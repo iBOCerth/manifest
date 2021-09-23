@@ -64,4 +64,8 @@ and then manually edit bashrc PATH=$PATH:$HOME/.local/bin
 sudo apt-get install python3-dev python3-opencv python3-wxgtk4.0 python3-pip python3-matplotlib python3-lxml python3-pygame
 pip3 install PyYAML mavproxy --user
 and then manually edit bashrc PATH=$PATH:$HOME/.local/bin
+
+if you get /dev/ttyUSBX no permission issues:
+sudo usermod -a -G dialout your_user_name
+then logout/login
 ```
