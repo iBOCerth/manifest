@@ -65,4 +65,8 @@ and then manually edit bashrc PATH=$PATH:$HOME/.local/bin
 if you get /dev/ttyUSBX no permission issues:
 sudo usermod -a -G dialout your_user_name
 then logout/login
+
+-----Testing-----
+for simulation (ROS/Gazebo) u also need:
+https://docs.px4.io/master/en/dev_setup/dev_env_linux_ubuntu.html#rosgazebo
 ```
