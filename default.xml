@@ -38,6 +38,8 @@
   <project path="src/ibo-scripts" name="iBOcerth/ibo-scripts" revision="thorvald-melodic-sim-uav">
 	  <linkfile src="thorvald_exec.desktop" dest="thorvald_exec.desktop"/>
 	  <linkfile src="killall.desktop" dest="killall.desktop"/>
+	  <linkfile src="uav_gazebo.sh" dest="uav_gazebo.sh"/>
+	  <linkfile src="uav_gazebo_headless.sh" dest="uav_gazebo_headless.sh"/>
   </project>
 	
   <include name="snippets/upstream.xml" />
