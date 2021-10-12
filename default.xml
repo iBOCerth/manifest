@@ -42,5 +42,6 @@
 	  <linkfile src="uav_gazebo_headless.sh" dest="uav_gazebo_headless.sh"/>
   </project>
 	
+  <project path="manifest" name="iBOCerth/manifest" remote="extra_packages_uav" />	
   <include name="snippets/upstream.xml" />
 </manifest>
