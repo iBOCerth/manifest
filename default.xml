@@ -29,8 +29,7 @@
 	
   <!--uav-->
   <project path="src/ros_uav" name="iBOCerth/ros_uav" revision="melodic" remote="uav" />	
-  <project path="px4-autopilot" name="iBOCerth/px4-autopilot" remote="extra_packages_uav"/>
-  <project path="px4-sitl_gazebo" name="iBOCerth/PX4-SITL_gazebo" remote="extra_packages_uav"/>
+  <project path="px4_autopilot" name="px4/px4-autopilot" revision="master" remote="github"/>
   <!--ugv-->
   <project path="src/thorvald_melodic_simulation"  name="iBOCerth/thorvald_melodic_simulation" revision="uav" />
   <project path="src/navigation" name="iBOcerth/navigation" remote="extra_packages_uav"/>
