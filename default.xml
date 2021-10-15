@@ -41,6 +41,7 @@
 	  <linkfile src="uav_gazebo.sh" dest="uav_gazebo.sh"/>
 	  <linkfile src="uav_gazebo_headless.sh" dest="uav_gazebo_headless.sh"/>
 	  <linkfile src="run.sh" dest="run.sh"/>
+	  <linkfile src="QGroundControl.AppImage" dest="QGroundControl.AppImage"/>
   </project>
 	
   <project path="manifest" name="iBOCerth/manifest" remote="extra_packages_uav" />	
