@@ -28,7 +28,7 @@
 	        sync-j="4" />
 	
   <!--uav-->
-  <project path="src/ros_uav" name="iBOCerth/ros_uav" revision="melodic" remote="uav" />	
+  <project path="src/ros_uav" name="iBOCerth/ros_uav" revision="rebase" remote="uav" />	
   <project path="px4-autopilot" name="iBOCerth/px4-autopilot" remote="extra_packages_uav"/>
   <!--ugv-->
   <project path="src/thorvald_melodic_simulation"  name="iBOCerth/thorvald_melodic_simulation" remote="extra_packages_uav" />
