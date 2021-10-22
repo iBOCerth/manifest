@@ -31,7 +31,7 @@
   <project path="src/ros_uav" name="iBOCerth/ros_uav" revision="melodic" remote="uav" />	
   <project path="px4-autopilot" name="iBOCerth/px4-autopilot" remote="extra_packages_uav"/>
   <!--ugv-->
-  <project path="src/thorvald_melodic_simulation"  name="iBOCerth/thorvald_melodic_simulation" revision="extra_packages_uav" />
+  <project path="src/thorvald_melodic_simulation"  name="iBOCerth/thorvald_melodic_simulation" remote="extra_packages_uav" />
   <project path="src/navigation" name="iBOcerth/navigation" remote="extra_packages_uav"/>
   <project path="src/ros_path_planner" name="iBOcerth/ros_path_planner" remote="extra_packages_uav" />
   <project path="src/ros_gps_libs" name="iBOcerth/ros_gps_libs" remote="extra_packages" />
