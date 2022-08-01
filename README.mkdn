@@ -1,7 +1,7 @@
 
 Initialize the manifest
 
-  	repo init -u git://github.com/iBOCerth/manifest.git -b thorvald-melodic-sim
+  	repo init -u https://github.com/iBOCerth/manifest.git -b thorvald-melodic-sim
   
 
 # If you have uninstalled dependencies run in your workspace:
