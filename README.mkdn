@@ -1,5 +1,5 @@
 
 Initialize the manifest
 
-  	repo init -u git://github.com/iBOCerth/manifest.git -b thorvald-melodic-sim-uav
+  	repo init -u https://github.com/iBOCerth/manifest.git -b thorvald-melodic-sim-uav
   
