@@ -7,20 +7,13 @@
    <remote name="private"
    		   fetch="ssh://git@github.com" />
 	   
-   <default revision="refs/heads/thorvald-melodic-sim"
+   <default revision="refs/heads/thorvald-melodic-dkati"
             remote="private"
             sync-c="true"
 	        sync-j="4" />
 	
   <project path="src/thorvald_melodic_simulation"  name="iBOCerth/thorvald_melodic_simulation" />
-  <project path="src/navigation" name="iBOcerth/navigation" />
-  <project path="src/ros_path_planner" name="iBOcerth/ros_path_planner" />
-  <project path="src/ros_gps_libs" name="iBOcerth/ros_gps_libs" />
-  <project path="src/ibo-scripts" name="iBOcerth/ibo-scripts">
-	  <linkfile src="thorvald_exec.desktop" dest="thorvald_exec.desktop"/>
-	  <linkfile src="killall.desktop" dest="killall.desktop"/>
-  </project>
-  <project path="opt_thorvald" name="iBOCerth/Thorvald_legacy_opt" revision="melodic"/>	
+ 
 
   <include name="snippets/upstream.xml" />
 </manifest>
