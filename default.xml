@@ -7,22 +7,23 @@
    <remote name="private"
    		   fetch="ssh://git@github.com" />
 	   
-   <default revision="refs/heads/husky-test"
+   <default revision="refs/heads/thorvald-melodic-robot"
             remote="private"
             sync-c="true"
-	        sync-j="4" />
+	    sync-j="4" />
 	
-	<project name="ibocerth/husky" path="src/husky" />
+	<project name="ibocerth/ros_fake_fix" path="src/fake_fix" />
 	<project name="ibocerth/velodyne_simulator" path="src/velodyne_simulator" />
-        <!-- <project name="ibocerth/octomap_mapping" path="src/octomap_mapping" /> -->
-	<!--<project name="ibocerth/rtabmap_ros" path="src/rtabmap_ros" /> -->
 	<project name="ibocerth/velodyne_driver" path="src/velodyne_driver" />
-	<project name="ibocerth/GPS_goal" path="src/GPS_goal" />
-	<project name="ibocerth/gazebo_ros_pkgs" path="src/gazebo_ros_pkgs" />
-	<project name="ibocerth/ibo-scripts" path="ibo-scripts"/>
+	<project name="ibocerth/fmis_ros" path="src/fmis_ros" />
+	<project name="ibocerth/NMEAParser" path="src/NMEAParser" />
+	<project name="ibocerth/ros_gps_libs" path="src/ros_gps_libs" />
+	<project name="ibocerth/thorvald_melodic_robot" path="src/thorvald_melodic_robot" />
+        <project name="ibocerth/nmea_navsat_driver" path="src/nmea_navsat_driver" />
+
+	<project name="cra-ros-pkg/robot_localization" path="src/robot_localization" revision="melodic-devel" remote="github"/>
+
 	<project name="ibocerth/manifest" path="manifest"/>
 
-	<!--gps lib-->
-	<project name="ibocerth/ros_gps_libs" path="src/gps_libs" revision="master" />
 
 </manifest>
