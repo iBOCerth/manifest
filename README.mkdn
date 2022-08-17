@@ -46,3 +46,18 @@ Now use `repo init` as it is, via your workspace
 # !!!!!!!!!!!!Important!!!!!!!!!!!!
 Do this -> https://github.com/iBOCerth/Thorvald_legacy_opt
 
+
+# GPS Navigation
+```
+gnome-terminal -- bash -c "source ~/.bashrc && roslaunch bringup bringup.launch; exec bash -i"
+sleep 10
+#gnome-terminal -- bash -c "source ~/.bashrc && roslaunch nmea_parser gps_reader.launch; exec bash -i"
+gnome-terminal -- bash -c "source ~/.bashrc && rosrun fake_fix fake_fix_node.py; exec bash -i"
+sleep 1
+gnome-terminal -- bash -c "source ~/.bashrc && roslaunch control gps_frame_broadcaster.launch; exec bash -i"
+sleep 7
+gnome-terminal -- bash -c "source ~/.bashrc && roslaunch fmis_ros path_publisher.launch; exec bash -i"
+sleep 1
+gnome-terminal -- bash -c "source ~/.bashrc && roslaunch navigation move_base_dwa.launch; exec bash -i"
+```
+
