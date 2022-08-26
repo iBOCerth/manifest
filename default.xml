@@ -11,6 +11,7 @@
 	    sync-j="4" />
 	
   <project path="src/thorvald_ibo" name="iBOCerth/thorvald_ibo" />
+  <project path="src/fmis_ros" name="iBOCerth/fmis_ros" />
 
 
 </manifest>
