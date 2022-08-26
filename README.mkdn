@@ -4,6 +4,9 @@ Initialize the manifest
   	repo init -u https://github.com/iBOCerth/manifest.git -b thorvald-melodic
   
 
+# ROS Installation
+[Click here](https://raw.githubusercontent.com/iBOCerth/manifest/thorvald-melodic/install_ros_and_thorvald.txt)
+
 # If you have uninstalled dependencies run in your workspace:
 ---------------
 $ rosdep install --from-paths src --ignore-src --rosdistro melodic -y -r
