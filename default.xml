@@ -12,6 +12,7 @@
 	
   <project path="src/thorvald_ibo" name="iBOCerth/thorvald_ibo" />
   <project path="src/fmis_ros" name="iBOCerth/fmis_ros" />
+  <project path="src/ros_gps_libs" name="iBOCerth/ros_gps_libs"/>
 
 
 </manifest>
