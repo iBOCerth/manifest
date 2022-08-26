@@ -1,12 +1,12 @@
 
 Initialize the manifest
 
-  	repo init -u https://github.com/iBOCerth/manifest.git -b thorvald-melodic-dkati
+  	repo init -u https://github.com/iBOCerth/manifest.git -b thorvald-melodic
   
 
 # If you have uninstalled dependencies run in your workspace:
 ---------------
-$ rosdep install --from-paths src --ignore-src --rosdistro kinetic -y -r
+$ rosdep install --from-paths src --ignore-src --rosdistro melodic -y -r
 
 
 # Prepare Thorvald /opt sources

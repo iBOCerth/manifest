@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-   <remote name="github"
-           fetch="https://github.com/"/>
+   <remote name="github" fetch="https://github.com/"/>
 
-   <remote name="private"
-   		   fetch="ssh://git@github.com" />
+   <remote name="private" fetch="ssh://git@github.com" />
 	   
-   <default revision="refs/heads/thorvald-melodic-dkati"
+   <default revision="refs/heads/thorvald-melodic"
             remote="private"
             sync-c="true"
-	        sync-j="4" />
+	    sync-j="4" />
 	
-  <project path="src/thorvald_melodic_simulation"  name="iBOCerth/thorvald_melodic_simulation" />
-  <project path="src/navigation" name="iBOCerth/navigation"/>
+  <project path="src/thorvald_ibo" name="iBOCerth/thorvald_ibo" />
 
 
-  <include name="snippets/upstream.xml" />
 </manifest>
