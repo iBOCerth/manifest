@@ -48,3 +48,76 @@ Now use `repo init` as it is, via your workspace
 
 # !!!!!!!!!!!!Important!!!!!!!!!!!!
 Do this -> https://github.com/iBOCerth/Thorvald_legacy_opt
+
+# Runtime Script Instructions
+
+## Open runtime
+Run ./runtime.sh
+
+## 1. Basic Teleopereation
+
+  1) Select Option 1.
+  2) Open the Joystick; Hold down the home (middle) button
+  
+  3) Use Joystick to operate Thorvald
+
+
+## 2. [SIM]
+
+## 3. [SIM]
+
+## 4. Planner goal via RViz with obstacle avoidance
+
+  1) Open the switch at the right-back of the robot
+  2) Make sure the LIDAR sensor is running
+  
+  3) Select Option 4.
+  4) Wait for RVIZ to open
+  5) Give goal via the RVIZ
+  
+  6) The robot will start moving towards the goal and avoiding obstacles
+     >NOTE: If the goal given is inside an obstacle, the planner will fail
+
+  
+## 5. HRI (Human Robot Interaction) demo
+
+  ### Prerequisites
+  1) Open the switch at the right-back of the robot
+  2) Turn on the Jetson CPU by holding its 1st button until the lights turn on
+  3) Wait a few seconds for the Jetson to fully turn on
+  
+  ### Starting HRI
+  4) Turn off the Wi-Fi
+  5) Go to Wired Connection: Connect to thorvald_lan
+     >If connection fails, make sure the modem is running
+  6) Select Option 5.
+  7) 3 new terminals will open. 2 of them waiting for a password
+  8) Insert the password in both terminals
+     >password: ibo@certh
+     >>The 2 terminals are now connected to the Jetson CPU through SSH
+  9) 1st terminal: Run ./zed_init/zed_init.sh
+  10) Wait until *Staring Object Detection* comes up
+  11) 2nd terminal: Run roslaunch ros_human_robot_interaction enable_interaction.launch
+  
+  ### Using HRI Gestures
+  12) Lock-Person: Left Hand up - Armpit-Elbow ~45-45 degrees ( \ / )
+  13) Follow-Person: Left Hand Straight Up ( | )
+  14) Unfollow-Person: Right Hand Straight Up ( | )
+  15) Unlock-Person: Right Hand up - Armpit-Elbow ~45-45 degrees ( \ / )
+      >NOTE 1: If locked person walks out of the camera range, the robot locks into place and the person is lost
+      >>NOTE 2: UNLOCK requires UNFOLLOW first
+      >>>NOTE 3: Obstacle avoidance is disabled
+      
+  
+## 6. FMIS Tracks demo
+
+  1) Open the switch at the right-back of the robot
+  2) Make sure the LIDAR sensor is running
+  
+  3) Select Option 6.
+  4) Wait for RVIZ to open
+  5) Give goal via the RVIZ
+     >If the goal is outside the global costmap, the planner will fail
+  
+  6) The robot will start following the pre-determined path shown in RVIZ
+  7) Obstacle avoidance is enabled
