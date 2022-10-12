@@ -1,7 +1,7 @@
 
 Initialize the manifest
 
-  	repo init -u https://github.com/iBOCerth/manifest.git -b thorvald-melodic
+  	repo init -u https://github.com/iBOCerth/manifest -b thorvald-melodic
   
 
 # ROS Installation
